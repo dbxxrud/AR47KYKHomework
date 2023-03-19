@@ -42,11 +42,12 @@ int TrimDelete(char* _String)
 int StringToInt(const char* _String)
 {
     int num = 0;
+    int num2 = 0;
 
     for (int i = 0; _String[i] != '\0'; ++i)
     {
-        // 오로지 숫자라고 가정
-        num = num * 10 + (_String[i] - '0');
+        num2 = _String[i] - '0'; // 50 - 48 = 2
+        num = num * 10 + num2;
     }
 
     return num;
@@ -54,30 +55,23 @@ int StringToInt(const char* _String)
 
 int main()
 {
-    int Return0 = StringCount("aaaaaaaaa");
+    int Return0 = StringCount("HelloWorld");
     int Return1 = StringCount("aaaa ggg sss");
 
     printf_s("%d", Return0);
 
     printf_s("\n");
 
-    char Arr0[1024] = "a b c d";
+    char Arr0[1024] = "a b c d e f g h i j";
    // char Arr1[1024] = "a    b c    d    e";
     //char Arr2[1024] = "ab    cde    ";
     TrimDelete(Arr0);
     printf_s("%s", Arr0);
-    //TrimDelete(Arr1);
-    //printf_s(Arr1);
-    //TrimDelete(Arr2);
-    //printf_s(Arr2);
+
     printf_s("\n");
 
     //// 영어나 다른글자가 섞여 들어가있는것을 가정하지 않는다.
-    int RValue0 = StringToInt("112423411");
+    int RValue0 = StringToInt("1120423");
     printf_s("%d", RValue0);
-    //int RValue1 = StringToInt("432");
-    //int RValue2 = StringToInt("4523312");
-    //int RValue3 = StringToInt("432231");
-
 
 }
