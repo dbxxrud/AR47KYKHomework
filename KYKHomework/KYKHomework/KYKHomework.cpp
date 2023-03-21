@@ -71,7 +71,7 @@ int main()
     printf_s("\n");
 
     //// 영어나 다른글자가 섞여 들어가있는것을 가정하지 않는다.
-    int RValue0 = StringToInt("1120423");
+    int RValue0 = StringToInt("112042");
     printf_s("%d", RValue0);
 
 }

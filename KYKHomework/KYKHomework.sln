@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33424.131
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "KYKHomework", "KYKHomework\KYKHomework.vcxproj", "{EB0B0A05-669F-459A-B6CD-D6E7FC199FD7}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "230318_HomeWork", "KYKHomework\KYKHomework.vcxproj", "{EB0B0A05-669F-459A-B6CD-D6E7FC199FD7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "230321_HomeWork", "230321_HomeWork\230321_HomeWork.vcxproj", "{99A91E9C-EBB7-4CA9-BA9C-289DE38E5479}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,14 @@ Global
 		{EB0B0A05-669F-459A-B6CD-D6E7FC199FD7}.Release|x64.Build.0 = Release|x64
 		{EB0B0A05-669F-459A-B6CD-D6E7FC199FD7}.Release|x86.ActiveCfg = Release|Win32
 		{EB0B0A05-669F-459A-B6CD-D6E7FC199FD7}.Release|x86.Build.0 = Release|Win32
+		{99A91E9C-EBB7-4CA9-BA9C-289DE38E5479}.Debug|x64.ActiveCfg = Debug|x64
+		{99A91E9C-EBB7-4CA9-BA9C-289DE38E5479}.Debug|x64.Build.0 = Debug|x64
+		{99A91E9C-EBB7-4CA9-BA9C-289DE38E5479}.Debug|x86.ActiveCfg = Debug|Win32
+		{99A91E9C-EBB7-4CA9-BA9C-289DE38E5479}.Debug|x86.Build.0 = Debug|Win32
+		{99A91E9C-EBB7-4CA9-BA9C-289DE38E5479}.Release|x64.ActiveCfg = Release|x64
+		{99A91E9C-EBB7-4CA9-BA9C-289DE38E5479}.Release|x64.Build.0 = Release|x64
+		{99A91E9C-EBB7-4CA9-BA9C-289DE38E5479}.Release|x86.ActiveCfg = Release|Win32
+		{99A91E9C-EBB7-4CA9-BA9C-289DE38E5479}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
