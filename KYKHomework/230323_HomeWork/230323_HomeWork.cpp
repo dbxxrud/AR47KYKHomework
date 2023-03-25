@@ -105,7 +105,7 @@ public:
     }
     int operator*()
     {
-        return Value;
+        return Value; // 멤버변수값 반환
     }
 
     int operator[](size_t _Value)
